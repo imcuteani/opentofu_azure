@@ -1,21 +1,21 @@
 variable "resource_group_name" {
   type        = string
   description = "The resource group name"
-  default     = "cen_in_rg_00001"
+  default     = "<your_rg_name>"
 
 }
 
 variable "location" {
   type        = string
   description = "The resource group location"
-  default     = "Central India"
+  default     = "<your_location>"
 
 }
 
 variable "akv_hsm_name" {
   type        = string
   description = "The AKV HSM name"
-  default     = "ceninakv00001"
+  default     = "<your_akv_hsm_name>"
 }
 
 variable "public_network_access_enabled" {
@@ -69,7 +69,7 @@ variable "vnet_name" {
 variable "subnet_name" {
   type        = string
   description = "The subnet name"
-  default     = "default"
+  default     = "<your_subnet_name>"
 }
 
 variable "vnet_rg_name" {
